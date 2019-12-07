@@ -17,6 +17,12 @@
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
+            <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+            <dependency>
+                <groupId>cglib</groupId>
+                <artifactId>cglib</artifactId>
+                <version>3.2.12</version>
+            </dependency>
     </dependencies>
     <build>
         <plugins>
