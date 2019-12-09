@@ -17,9 +17,11 @@ public class heapSort {
         int[] arr= CommonUtil.getRandomArray(1000,0,999999);
         heapSort.bigHeap(arr);
         System.out.println(Arrays.toString(arr));
+        System.out.println(CommonUtil.JudgeSortSmallToBig(arr));
         arr= CommonUtil.getRandomArray(1000,0,999999);
         heapSort.smallHeap(arr);
         System.out.println(Arrays.toString(arr));
+        System.out.println(CommonUtil.JudgeSortBigToSmall(arr));
     }
     public void bigHeap(int[] arr){
         for (int i=arr.length;i>=0;i--){
