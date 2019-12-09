@@ -70,6 +70,7 @@ public class CommonUtil {
         }
         return result;
     }
+    //获取随机数
     public static int[] getRandomArray(int n,int left,int right){
         int[] arr=new int[n];
         SecureRandom sr=new SecureRandom();
@@ -78,6 +79,7 @@ public class CommonUtil {
         }
         return arr;
     }
+    //判读数组是否是从大到小
     public static boolean JudgeSortBigToSmall(int[] arr){
         for (int i=0;i<arr.length-1;i++){
             if (arr[i]<arr[i+1]){
@@ -86,6 +88,7 @@ public class CommonUtil {
         }
         return true;
     }
+    //判断数组是否是从小到大
     public static boolean JudgeSortSmallToBig(int[] arr){
         for (int i=0;i<arr.length-1;i++){
             if (arr[i]>arr[i+1]){

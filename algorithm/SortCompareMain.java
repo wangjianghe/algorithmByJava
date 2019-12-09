@@ -1,3 +1,6 @@
+import util.TreeNode;
+import util.TreeUtil;
+
 /**
  *<p>Description:${Description}</p>
  *<p>Company:tope</p>
@@ -7,9 +10,9 @@
  */
 public class SortCompareMain {
     public static void main(String[] args) {
-        String zipName="dads.jpg";
-        String zipFileName =zipName;
-        zipFileName=zipFileName.substring(zipFileName.lastIndexOf('\\')+1);
-        System.out.println(zipFileName);
+        TreeNode treeNode=TreeUtil.getBinarySearchIntTree(5,0,99);
+        TreeUtil.preOderTraversal(treeNode);
+        System.out.println();
+        TreeUtil.inOrderTraversal(treeNode);
     }
 }
