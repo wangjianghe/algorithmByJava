@@ -13,7 +13,7 @@ import lombok.Data;
 public class TreeNode {
     public TreeNode left;
     public TreeNode right;
-    public Integer val;
+    public int val;
     public TreeNode(){
     }
     public TreeNode(Integer val) {
