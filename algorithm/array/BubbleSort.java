@@ -7,7 +7,7 @@ import util.CglibProxy;
 import util.CommonUtil;
 
 /**
- *<p>Description:${Description}</p>
+ *<p>Description:冒泡排序</p>
 
  *<p>Create Date:2019年11月29日</p>
  *@author:wangjianghe

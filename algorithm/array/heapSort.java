@@ -5,7 +5,7 @@ import java.util.Arrays;
 import util.CommonUtil;
 
 /**
- *<p>Description:${Description}</p>
+ *<p>Description:</p>
 
  *<p>Create Date:2019年11月30日</p>
  *@author:wangjianghe
