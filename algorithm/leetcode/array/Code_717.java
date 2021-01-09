@@ -1,7 +1,8 @@
 package leetcode.array;
 
 /**
- *
+ * 1-bit and 2-bit Characters
+ * 一个数组由0和1组成，但是数据能以3种形式存在，0，11，10， 如果这个数组最后一个为0，返回true
  */
 public class Code_717 {
     public boolean isOneBitCharacter(int[] bits) {
