@@ -1,5 +1,8 @@
 package leetcode.array;
 
+/**
+ * 未匹配
+ */
 public class Code_10 {
     public boolean isMatchChar(char[] s, int s1, char[] p, int p1) {
         if(p1 >= p.length) return s1 >= s.length;
