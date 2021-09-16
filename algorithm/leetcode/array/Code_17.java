@@ -38,7 +38,7 @@ public class Code_17 {
 
     public static void main(String[] args) {
         Code_17 code17=new Code_17();
-        System.out.println(code17.letterCombinations("2"));
+        System.out.println(code17.letterCombinations("23455"));
     }
 
 }
