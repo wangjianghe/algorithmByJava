@@ -41,6 +41,10 @@ public class heapSort {
         }
     }
     public static void createSmallHeap(int[] arr,int length){
+        /**
+         * (length/2)-1 取到的是树的拥有子节点的一个父节点
+         * 然后看子节点是否大于自己，大于自己进行交换
+         */
         for (int index=(length/2)-1;index>=0;index--){
             int temp=arr[index];
             int k=index*2+1;
